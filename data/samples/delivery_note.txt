@@ -1,0 +1,17 @@
+
+DELIVERY NOTE
+
+Delivery Number: DN-1001
+Purchase Order: PO-5001
+
+Supplier: ABC Packaging Ltd.
+Recipient: Warehouse Receiving Department
+
+Items:
+1. Cardboard Boxes - Quantity: 100
+2. Bubble Wrap Rolls - Quantity: 20
+3. Packing Tape - Quantity: 50
+
+Delivery Date: 24 November 2026
+
+Status: Delivered

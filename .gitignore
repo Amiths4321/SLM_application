@@ -1,6 +1,51 @@
-@"
-.venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Model weights
 *.pt
-"@ | Out-File -FilePath .gitignore -Encoding utf8
+*.pth
+*.onnx
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated inspection data
+data/processed/
+reports/logs/
+
+# Private and real-world samples
+data/samples/*
+!data/samples/delivery_note.txt
+
+# Temporary files
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+# Generated detection images
+data/processed/detections/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Agent configuration - review before publishing
+.agents/
+.claude/
